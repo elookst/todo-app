@@ -71,9 +71,14 @@ button:hover {
     font-size: 1rem;
 }
 
-.delete {
+.delete, .isDone {
     cursor: pointer;
     transition: transform 0.2s, color 0.3s;
+}
+
+.isDone:hover {
+    transform: scale(1.1);
+    color:#08a800;
 }
 
 .delete:hover {
